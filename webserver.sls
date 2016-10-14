@@ -1,3 +1,4 @@
-/etc/resolv.conf:
-  file.symlink:
-    - target: /tmp/resolvi.conf
+packages:
+  pkg.latest:
+    - name: screen
+    - name: sqlite3
